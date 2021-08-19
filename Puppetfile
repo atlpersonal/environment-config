@@ -19,3 +19,7 @@ forge 'https://forge.puppet.com'
  mod 'tomcat',
    git:    'https://github.com/atlpersonal/tomcat.git',
    branch: 'production'
+
+ mod 'java',
+   git:    'https://github.com/atlpersonal/java.git',
+   branch: 'production'
