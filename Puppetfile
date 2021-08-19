@@ -17,5 +17,5 @@ forge 'https://forge.puppet.com'
 #  branch: 'docs_experiment'
 
  mod 'tomcat'
-   git:    'https://github.com/atlpersonal/tomcat.git'
+   git:    'https://github.com/atlpersonal/tomcat.git',
    branch: 'production'
