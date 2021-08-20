@@ -3,3 +3,8 @@ node 'centosnode1.test.com', 'redhatnode2.test.com' {
   include tomcat
   include ntp
 }
+
+node 'winnode3.test.com' {
+  include puppetlabs-docker
+  
+}
