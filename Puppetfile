@@ -23,3 +23,11 @@ forge 'https://forge.puppet.com'
  mod 'java',
    git:    'https://github.com/atlpersonal/java.git',
    branch: 'production'
+
+ mod 'ntp',
+   git:    'https://github.com/atlpersonal/ntp.git',
+   branch: 'production'
+
+ mod 'stdlib',
+   git:    'https://github.com/atlpersonal/stdlib.git',
+   branch: 'production'
