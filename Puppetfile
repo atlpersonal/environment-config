@@ -31,3 +31,5 @@ forge 'https://forge.puppet.com'
  mod 'stdlib',
    git:    'https://github.com/atlpersonal/stdlib.git',
    branch: 'production'
+
+ mod 'puppetlabs-docker', '4.1.0'
