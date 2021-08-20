@@ -5,6 +5,6 @@ node 'centosnode1.test.com', 'redhatnode2.test.com' {
 }
 
 node 'winnode3.test.com' {
-  include puppetlabs-docker
+  include docker
   
 }
