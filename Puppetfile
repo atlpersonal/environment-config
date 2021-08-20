@@ -32,4 +32,4 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlpersonal/stdlib.git',
    branch: 'production'
 
- mod 'puppetlabs-docker', '4.1.0'
+ #mod 'puppetlabs-docker', '4.1.0'
