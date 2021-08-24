@@ -42,7 +42,7 @@ forge 'https://forge.puppet.com'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlpersonal/hieradata-nodes.git',
-   branch: 'production',
+   branch: 'production'
    
 
  #mod 'puppetlabs-docker', '4.1.0'
