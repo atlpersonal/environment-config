@@ -18,31 +18,31 @@ forge 'https://forge.puppet.com'
 
  mod 'tomcat',
    git:    'https://github.com/atlpersonal/tomcat.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'java',
    git:    'https://github.com/atlpersonal/java.git',
-   branch: 'production'
+   branch: 'development'
 
  # mod 'ntp',
  #  git:    'https://github.com/atlpersonal/ntp.git',
- #  branch: 'production'
+ #  branch: 'development'
 
  mod 'stdlib',
    git:    'https://github.com/atlpersonal/stdlib.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'roles',
    git:    'https://github.com/atlpersonal/roles.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'profiles',
    git:    'https://github.com/atlpersonal/profiles.git',
-   branch: 'production'
+   branch: 'development'
 
  mod 'hieradata-nodes',
    git:    'https://github.com/atlpersonal/hieradata-nodes.git',
-   branch: 'production',
+   branch: 'development',
    install_path: 'hieradata'
    
 
