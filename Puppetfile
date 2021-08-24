@@ -32,4 +32,12 @@ forge 'https://forge.puppet.com'
    git:    'https://github.com/atlpersonal/stdlib.git',
    branch: 'production'
 
+ mod 'roles',
+   git:    'https://github.com/atlpersonal/roles.git',
+   branch: 'production'
+
+ mod 'profiles',
+   git:    'https://github.com/atlpersonal/profiles.git',
+   branch: 'production'
+
  #mod 'puppetlabs-docker', '4.1.0'
