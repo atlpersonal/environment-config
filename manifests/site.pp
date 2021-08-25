@@ -30,7 +30,5 @@ node default {
   #   class { 'my_class': }
 }
 
-node 'centosnode1.test.com', 'redhatnode2.test.com'{
+lookup('role').include
 
-  lookup('role').include
-}
