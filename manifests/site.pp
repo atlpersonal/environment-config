@@ -28,7 +28,10 @@ node default {
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
+  include 
+  
 }
 
-lookup('role').include
-
+node 'centosnode1.test.com', redhatnode2.test.com' {
+  lookup('role').include
+}
