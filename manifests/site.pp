@@ -32,6 +32,6 @@ node default {
   
 }
 
-node 'centosnode1.test.com', redhatnode2.test.com' {
+node 'centosnode1.test.com', 'redhatnode2.test.com' {
   lookup('role').include
 }
